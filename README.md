@@ -27,7 +27,7 @@ The 'target' column in the dataset has categorical labels 1-7 that correspond wi
 - 6 = indie-pop
 - 7 = EDM-pop
 
-*Each artist's songs are all labeled labeled with the same subgenre tages. The target labels are mutually exclusive, meaning that each song only has one subgenre label.*
+*The target labels are mutually exclusive, meaning that each song only has one subgenre label.*
 
 
 ### Independent Variables
