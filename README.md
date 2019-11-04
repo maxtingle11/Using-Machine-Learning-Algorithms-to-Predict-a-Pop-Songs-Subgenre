@@ -6,7 +6,7 @@ Flatiron School - Machine Learning Project
 
 ## Research Question
 
-Can we predict a pop song's subgenre using its audio features?
+**Can we predict a pop song's subgenre using its audio features?**
 
 ## Dataset
 
@@ -48,7 +48,7 @@ We fit models for the following machine learning algorithms, and used Grid Searc
 
 ## Finding:
 
-The model fit with eXtreme Gradient Boost Classifier had the highest accuracy rate of approximately 55%.
+**The model fit with eXtreme Gradient Boost Classifier had the highest accuracy rate of approximately 55%.**
 
 Out of 7 subgenres, there is a 14% chance of randomly picking the correct subgenre. The model fit with XGBoost Classifier is almost 4 times more likely than random chance to correctly classify the pop song to its correct subgenre. 
 
@@ -57,7 +57,8 @@ Our analysis concludes that one can develop a model that predicts a pop song's s
 
 ## Future Work
 
-In the future, we would like to develop a model that includes more of the 322 pop subgenres that Spotify labels rather than the 7 we limited this project to. Additionally, we would like to explore models for other major genre groups (eg. Rock, Hip Hop, Country, etc.).
+1. In the future, we would like to develop a model that includes more of the 322 pop subgenres that Spotify labels rather than the 7 we limited this project to. 
+2. Additionally, we would like to explore models for other major genre groups (eg. Rock, Hip Hop, Country, etc.).
 
 
 ## Repository Files
