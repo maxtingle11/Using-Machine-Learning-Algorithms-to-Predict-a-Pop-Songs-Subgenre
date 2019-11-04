@@ -1,4 +1,4 @@
-# Predicting Pop Subgenres Using Machine Learning
+# Predicting Pop Subgenres with Machine Learning Algorithms
 
 Data Scientists - Anastasia Kharina & Max Tingle 
 
@@ -34,21 +34,21 @@ The remaining columns of the dataset are [audio features](https://developer.spot
 
 ## Modeling Methods
 
-We fit models for the following methods, and used GridSearchCV to hypertune the parameters of each model:
+We fit models for the following machine learning algorithms, and used Grid Search Cross Validation to hypertune the parameters of each model:
 - Logistic Regression
 - K-Nearest Neighbors
 - Decision Tree Classifier
 - Random Forrest Classifier
 - AdaBoost Classifier
 - Gradient Boost Classifier
-- XGBoost Classifier
+- eXtreme Gradient Boost Classifier
 - Support Vector Machine
 
 *Not included in our technical notebook: we further tuned each model by: 1) limiting features based on feature importance rankings from Decision Tree Classifier, and 2) applying Principal Component Analysis for dimensionality reduction. Neither of these two adjustments yielded better performing models.*
 
 ## Finding:
 
-The model fit with XGBoost Classifier had the highest accuracy rate of approximately 55%.
+The model fit with eXtreme Gradient Boost Classifier had the highest accuracy rate of approximately 55%.
 
 Out of 7 subgenres, there is a 14% chance of randomly picking the correct subgenre. The model fit with XGBoost Classifier is almost 4 times more likely than random chance to correctly classify the pop song to its correct subgenre. 
 
