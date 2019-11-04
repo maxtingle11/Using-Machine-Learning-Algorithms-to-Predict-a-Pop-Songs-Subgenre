@@ -32,7 +32,7 @@ The 'target' column in the dataset has categorical labels 1-7 that correspond wi
 The remaining columns of the dataset are [audio features](https://developer.spotify.com/documentation/web-api/reference/tracks/get-several-audio-features/) or metrics that measure each song's acousticness, danceability, duration, energy, intrumentalness, key, liveness, loudness, major/minor key, speechiness, tempo, time signature, and valence.
 
 
-## Modeling Methods
+## Modeling Algorithms
 
 We fit models for the following machine learning algorithms, and used Grid Search Cross Validation to hypertune the parameters of each model:
 - Logistic Regression
