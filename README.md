@@ -1,8 +1,8 @@
 # Predicting Pop Subgenres Using Machine Learning
 
-**Data Scientists -** Anastasia Kharina & Max Tingle 
+Data Scientists - Anastasia Kharina & Max Tingle 
 
-**Flatiron School -** Machine Learning Project
+Flatiron School - Machine Learning Project
 
 ## Research Question
 
@@ -44,13 +44,13 @@ We fit models for the following methods, and used GridSearchCV to hypertune the 
 - XGBoost Classifier
 - Support Vector Machine
 
-(Not included in our technical notebook:) We further tuned each model by: 1) limiting features based on feature importance rankings from Random Forrest Classifier, and 2) applying Principal Component Analysis for dimensionality reduction. Neither of the two adjustments yielded better performing models.
+*Not included in our technical notebook: we further tuned each model by: 1) limiting features based on feature importance rankings from Decision Tree Classifier, and 2) applying Principal Component Analysis for dimensionality reduction. Neither of these two adjustments yielded better performing models.*
 
 ## Finding:
 
 The model fit with XGBoost Classifier had the highest accuracy rate of approximately 55%.
 
-Out of 7 subgenres, there is a 14% chane of randomly picking the correct subgenre. The model fit with XGBoost Classifier is almost 4 times more likely to correctly classify the pop song to its correct subgenre. 
+Out of 7 subgenres, there is a 14% chance of randomly picking the correct subgenre. The model fit with XGBoost Classifier is almost 4 times more likely than random chance to correctly classify the pop song to its correct subgenre. 
 
 Our analysis concludes that one can develop a model that predicts a pop song's subgenre with 55% accuracy.
 
@@ -67,6 +67,7 @@ In the future, we would like to develop a model that includes more of the 322 po
 3. Technical Notebook (Jupyter Notebook)
 4. scripts.py (Pre-defined Python functions used in technical notebook)
 5. data (Folder containing csv files)
+6. images (Folder containing png files exported from technical notebook)
 
 
 ## Responsibilities
