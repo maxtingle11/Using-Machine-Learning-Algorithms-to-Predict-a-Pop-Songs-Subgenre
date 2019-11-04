@@ -19,13 +19,13 @@ Collected from Spotify's API, our dataset contains audio feature information for
 ### Dependent/Target Variable
 
 The 'target' column in the dataset has categorical labels 1-7 that correspond with the following 7 pop-subgenres:
-1 = dance-pop
-2 = rap-pop
-3 = folk-pop
-4 = electro-pop
-5 = rock-pop
-6 = indie-pop
-7 = EDM-pop
+- 1 = dance-pop
+- 2 = rap-pop
+- 3 = folk-pop
+- 4 = electro-pop
+- 5 = rock-pop
+- 6 = indie-pop
+- 7 = EDM-pop
 
 *Each artist's songs are all labeled labeled with the same subgenre tages. The target labels are mutually exclusive, meaning that each song only has one subgenre label.*
 
