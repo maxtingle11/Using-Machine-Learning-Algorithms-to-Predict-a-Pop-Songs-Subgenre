@@ -1,4 +1,4 @@
-# Using Machine Learning to Predicting a Pop Song's Subgenre
+# Using Machine Learning to Predict a Pop Song's Subgenre
 
 Data Scientists - Anastasia Kharina & Max Tingle 
 
