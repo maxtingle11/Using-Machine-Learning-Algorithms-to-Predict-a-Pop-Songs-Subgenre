@@ -50,7 +50,7 @@ We fit models for the following machine learning algorithms, and used Grid Searc
 
 Out of 7 subgenres, there is a 14% chance of randomly picking the correct subgenre. **The model we fit with the Gradient Boost Classifier had the highest accuracy rate of approximately 56%,** making it 4 times more likely than random chance to correctly classify a pop song to its correct subgenre. 
 
-Our analysis concludes that one can predict a pop song's subgenre using its audio features with 56% accuracy.
+Our analysis concludes that one can use audio features to predict a pop song's subgenre with 56% accuracy.
 
 
 ## Future Work
