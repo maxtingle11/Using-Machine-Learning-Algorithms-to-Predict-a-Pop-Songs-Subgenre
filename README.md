@@ -6,7 +6,7 @@ Flatiron School - Machine Learning Project
 
 ## Research Question
 
-**Can we predict a pop song's subgenre using its audio features?**
+Can we predict a pop song's subgenre using its audio features?
 
 ## Dataset
 
