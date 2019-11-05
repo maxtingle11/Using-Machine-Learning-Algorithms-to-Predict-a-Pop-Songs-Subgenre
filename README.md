@@ -66,6 +66,7 @@ Our analysis suggests that one can use audio features to predict a pop song's su
 4. scripts.py (Pre-defined Python functions used in technical notebook)
 5. data (Folder containing csv files)
 6. images (Folder containing png files exported from technical notebook)
+7. archive (Folder containing technical notebooks before they were combined)
 
 
 ## Responsibilities
