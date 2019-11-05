@@ -10,8 +10,7 @@ Can we predict a pop song's subgenre using its audio features?
 
 ## Dataset
 
-Collected from Spotify's API, our dataset contains audio feature information for 13,988 pop songs. 
-
+The dataset we worked with was retrieved from Spotify’s API and contains audio feature information for 13,988 pop songs.
 
 ## Dependent/Target Variable
 
