@@ -29,12 +29,12 @@ The 'target' column in the dataset has categorical labels 1-7 that correspond wi
 
 ## Independent Variables
 
-The remaining columns of the dataset are [audio features](https://developer.spotify.com/documentation/web-api/reference/tracks/get-several-audio-features/) or metrics that measure each song's acousticness, danceability, duration, energy, intrumentalness, key, liveness, loudness, major/minor key, speechiness, tempo, time signature, and valence.
+The remaining columns of the dataset are [audio features](https://developer.spotify.com/documentation/web-api/reference/tracks/get-several-audio-features/) or metrics that measure each song's acousticness, danceability, duration, energy, instrumentalness, key, liveness, loudness, major/minor key, speechiness, tempo, time signature, and valence.
 
 
 ## Modeling Algorithms
 
-We fit models for the following machine learning algorithms, and used Grid Search Cross Validation to hypertune the parameters of each model:
+We fit models for the following machine learning algorithms, and used Grid Search Cross Validation to hyper-tune the parameters of each model:
 - Logistic Regression
 - K-Nearest Neighbors
 - Decision Tree Classifier
@@ -48,9 +48,9 @@ We fit models for the following machine learning algorithms, and used Grid Searc
 
 ## Finding
 
-Out of 7 subgenres, there is a 14% chance of randomly picking the correct subgenre. **The model fit with eXtreme Gradient Boost Classifier (XGBoost) had the highest accuracy rate of approximately 55%,** making it almost 4 times more likely than random chance to correctly classify a pop song to its correct subgenre. 
+Out of 7 subgenres, there is a 14% chance of randomly picking the correct subgenre. **The model we fit with the Gradient Boost Classifier had the highest accuracy rate of approximately 56%,** making it 4 times more likely than random chance to correctly classify a pop song to its correct subgenre. 
 
-Our analysis concludes that one can predict a pop song's subgenre using its audio features with 55% accuracy.
+Our analysis concludes that one can predict a pop song's subgenre using its audio features with 56% accuracy.
 
 
 ## Future Work
