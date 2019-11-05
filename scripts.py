@@ -10,7 +10,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 def print_metrics(labels, preds, title=None):
     '''This function prints accuracy score of two series (labels, predictions)'''
-    print(f"{title} Accuracy Score: {accuracy_score(labels, preds)}")
+    print(f"{title} Accuracy Score: {round(accuracy_score(labels, preds),4)}")
 
 
 def find_best_k_acc(X_train, y_train, X_test, y_test, min_k=1, max_k=50):
@@ -41,7 +41,7 @@ def plot_confusion_matrix(cm, classes, normalize=False, cmap=plt.cm.Greens):
 
     plt.figure(figsize=(10,10))
     plt.imshow(cm, interpolation='nearest', cmap=cmap)
-    plt.colorbar()
+    #plt.colorbar()
     tick_marks = np.arange(len(classes))
     plt.xticks(tick_marks, classes, rotation=45, fontsize=15)
     plt.yticks(tick_marks, classes, fontsize=15)
@@ -52,6 +52,14 @@ def plot_confusion_matrix(cm, classes, normalize=False, cmap=plt.cm.Greens):
                  horizontalalignment="center", fontsize=18, fontweight='bold',
                  color="white" if cm[i, j] > thresh else "black")
     plt.tight_layout()
-    plt.ylabel('True label', fontsize=15)
-    plt.xlabel('Predicted label', fontsize=15)
+    plt.ylabel('Actual Subgenre', fontsize=15)
+    plt.xlabel('Predicted Subgenre', fontsize=15)
     
+def plot_feature_importances(model, X_train):
+    n_features = X_train.shape[1]
+    plt.figure(figsize=(8,8))
+    plt.barh(range(n_features), model.feature_importances_, align='center') 
+    plt.yticks(np.arange(n_features), X_train.columns.values) 
+    plt.xlabel("Feature importance")
+    plt.ylabel("Feature")
+
