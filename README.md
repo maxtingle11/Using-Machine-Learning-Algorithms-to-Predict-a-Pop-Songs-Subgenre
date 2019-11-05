@@ -46,7 +46,7 @@ We fit models for the following machine learning algorithms, and used Grid Searc
 
 *Not included in our technical notebook: we further tuned each model by: 1) limiting features based on feature importance rankings from Decision Tree Classifier, and 2) applying Principal Component Analysis for dimensionality reduction. Neither of these two adjustments yielded better performing models.*
 
-## Finding:
+## Finding
 
 **The model fit with eXtreme Gradient Boost Classifier had the highest accuracy rate of approximately 55%.**
 
