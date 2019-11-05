@@ -15,13 +15,13 @@ The dataset was retrieved from Spotify’s API and contains audio feature inform
 ## Dependent/Target Variable
 
 The 'target' column in the dataset has categorical labels 1-7 that correspond with the following 7 pop-subgenres:
-- 1 = dance-pop
-- 2 = rap-pop
-- 3 = folk-pop
-- 4 = electro-pop
-- 5 = rock-pop
-- 6 = indie-pop
-- 7 = EDM-pop
+- 1 = Dance-Pop
+- 2 = Rap-Pop
+- 3 = Folk-Pop
+- 4 = Electro-Pop
+- 5 = Rock-Pop
+- 6 = Indie-Pop
+- 7 = EDM-Pop
 
 *The target labels are mutually exclusive, meaning that each song only has one subgenre label.*
 
@@ -47,7 +47,7 @@ We fit models for the following machine learning algorithms, and used Grid Searc
 
 ## Finding
 
-Out of 7 subgenres, there is a 14% chance of randomly picking the correct subgenre. **The model we fit with the Gradient Boost Classifier had the highest accuracy rate of approximately 56%,** making it 4 times more likely than random chance to correctly classify a pop song to its correct subgenre. 
+Out of 7 subgenres, there is about a 14% chance of randomly picking the correct subgenre. **The model we fit with the Gradient Boost Classifier had the highest accuracy rate of approximately 56%,** making it 4 times more likely than random chance to correctly classify a pop song to its correct subgenre. 
 
 Our analysis suggests that one can use audio features to predict a pop song's subgenre with 56% accuracy.
 
